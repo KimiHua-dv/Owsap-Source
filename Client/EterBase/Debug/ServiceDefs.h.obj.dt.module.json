@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\ServiceDefs.obj",
+            "outputs": [
+                "Debug\\ServiceDefs.h.obj.dt.module.json",
+                "Debug\\ServiceDefs.h.obj.dt.d.json",
+                "Debug\\EterBase.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

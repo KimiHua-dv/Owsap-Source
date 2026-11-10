@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Release\\error.obj",
+            "outputs": [
+                "Release\\error.cpp.obj.dt.module.json",
+                "Release\\error.cpp.obj.dt.d.json",
+                "Release\\EterBase.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+D:\project\Srcs\Client\CWebBrowser\Debug\CWebBrowser.lib
+D:\Metin2\Owsap v6.2.6 Renewal\Owsap v6.2.6 Renewal\Srcs\Client\CWebBrowser\Debug\CWebBrowser.lib

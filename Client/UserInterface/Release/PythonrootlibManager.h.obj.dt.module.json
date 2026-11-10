@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Release\\PythonrootlibManager.obj",
+            "outputs": [
+                "Release\\PythonrootlibManager.h.obj.dt.module.json",
+                "Release\\PythonrootlibManager.h.obj.dt.d.json",
+                "Release\\$UserInterface.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

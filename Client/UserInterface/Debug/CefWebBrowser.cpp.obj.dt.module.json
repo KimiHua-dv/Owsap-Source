@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\CefWebBrowser.obj",
+            "outputs": [
+                "Debug\\CefWebBrowser.cpp.obj.dt.module.json",
+                "Debug\\CefWebBrowser.cpp.obj.dt.d.json",
+                "Debug\\$UserInterface.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

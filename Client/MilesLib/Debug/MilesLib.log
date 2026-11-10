@@ -1,0 +1,5 @@
+﻿cl : komut satırı  warning D9035: 'Gm' seçeneği kullanım dışı ve ileride yayınlanacak bir sürümden çıkarılacak
+  Stdafx.cpp
+D:\project\Srcs\Client\MilesLib\stdafx.h(12,10): error C1083: içerme dosyası açılamıyor: 'mss.h': No such file or directory
+  ('Stdafx.cpp' kaynak dosyası derleniyor)
+  

@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\StdAfx.obj",
+            "outputs": [
+                "Debug\\StdAfx.h.obj.dt.module.json",
+                "Debug\\StdAfx.h.obj.dt.d.json",
+                "Debug\\EterLib.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

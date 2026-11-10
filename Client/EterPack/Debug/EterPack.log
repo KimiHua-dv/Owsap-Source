@@ -1,0 +1,19 @@
+﻿cl : komut satırı  warning D9035: 'Gm' seçeneği kullanım dışı ve ileride yayınlanacak bir sürümden çıkarılacak
+  StdAfx.cpp
+  EterPackPolicy_CSHybridCrypt.cpp
+  EterPackManager.cpp
+D:\project\Srcs\Client\EterPack\EterPackPolicy_CSHybridCrypt.h(5,10): error C1083: içerme dosyası açılamıyor: 'cryptopp/cryptlib.h': No such file or directory
+  ('EterPackPolicy_CSHybridCrypt.cpp' kaynak dosyası derleniyor)
+  
+D:\project\Srcs\Client\EterBase\lzo.h(5,10): error C1083: içerme dosyası açılamıyor: 'lzo/lzo1x.h': No such file or directory
+  ('EterPackManager.cpp' kaynak dosyası derleniyor)
+  
+  EterPackCursor.cpp
+D:\project\Srcs\Client\EterBase\lzo.h(5,10): error C1083: içerme dosyası açılamıyor: 'lzo/lzo1x.h': No such file or directory
+  ('EterPackCursor.cpp' kaynak dosyası derleniyor)
+  
+  EterPack.cpp
+D:\project\Srcs\Client\EterBase\lzo.h(5,10): error C1083: içerme dosyası açılamıyor: 'lzo/lzo1x.h': No such file or directory
+  ('EterPack.cpp' kaynak dosyası derleniyor)
+  
+  Kod Üretiliyor...

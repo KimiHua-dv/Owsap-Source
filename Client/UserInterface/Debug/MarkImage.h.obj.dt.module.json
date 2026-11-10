@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\MarkImage.obj",
+            "outputs": [
+                "Debug\\MarkImage.h.obj.dt.module.json",
+                "Debug\\MarkImage.h.obj.dt.d.json",
+                "Debug\\$UserInterface.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

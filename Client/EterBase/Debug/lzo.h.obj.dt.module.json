@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\lzo.obj",
+            "outputs": [
+                "Debug\\lzo.h.obj.dt.module.json",
+                "Debug\\lzo.h.obj.dt.d.json",
+                "Debug\\EterBase.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

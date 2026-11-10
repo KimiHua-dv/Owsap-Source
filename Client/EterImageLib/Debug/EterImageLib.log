@@ -1,0 +1,13 @@
+﻿cl : komut satırı  warning D9035: 'Gm' seçeneği kullanım dışı ve ileride yayınlanacak bir sürümden çıkarılacak
+  StdAfx.cpp
+cl : komut satırı  warning D9035: 'Gm' seçeneği kullanım dışı ve ileride yayınlanacak bir sürümden çıkarılacak
+  TGAImage.cpp
+D:\project\Srcs\Client\EterBase\lzo.h(5,10): error C1083: içerme dosyası açılamıyor: 'lzo/lzo1x.h': No such file or directory
+  ('/TGAImage.cpp' kaynak dosyası derleniyor)
+  
+  Image.cpp
+  DXTCImage.cpp
+D:\project\Srcs\Client\EterBase\lzo.h(5,10): error C1083: içerme dosyası açılamıyor: 'lzo/lzo1x.h': No such file or directory
+  ('/DXTCImage.cpp' kaynak dosyası derleniyor)
+  
+  Kod Üretiliyor...

@@ -1,0 +1,3 @@
+﻿cl : komut satırı  warning D9035: 'Gm' seçeneği kullanım dışı ve ileride yayınlanacak bir sürümden çıkarılacak
+  CWebBrowser.c
+  CWebBrowser.vcxproj -> D:\project\Srcs\Client\CWebBrowser\Debug\CWebBrowser.lib

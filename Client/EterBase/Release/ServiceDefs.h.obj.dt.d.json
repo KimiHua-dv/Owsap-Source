@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\metin2\\owsap v6.2.6 renewal\\owsap v6.2.6 renewal\\srcs\\client\\eterbase\\servicedefs.h",
+        "ProvidedModule": "",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

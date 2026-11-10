@@ -1,0 +1,12 @@
+﻿D:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output dizini sonda bir eğik çizgiyle bitmiyor. Output dizininin düzgün değerlendirilmesi için bu eğik çizgi gerekli olduğundan bu oluşturma örneği eğik çizgiyi ekleyecek.
+  Cythonizing Root
+  Could Not Find D:\project\Srcs\Client\CRootLib\RootLib\*.py
+  Could Not Find D:\project\Srcs\Client\CRootLib\RootLib\cyTemp\*.c
+  Could Not Find D:\project\Srcs\Client\CRootLib\RootLib\cyTemp\*.py
+  Sistem belirtilen yolu bulamıyor.
+          1 file(s) copied.
+          1 file(s) copied.
+  Sistem belirtilen yolu bulamıyor.
+  Press any key to continue . . . 
+D:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: "call Build.bat
+D:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(156,5): error MSB3073: :VCEnd" komutundan 3 koduyla çıkıldı.

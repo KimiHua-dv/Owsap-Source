@@ -1,0 +1,32 @@
+<ConfigFile> LOAD 'PackMakerLite.json' BEGIN
+<ConfigFile> ignoreFileExt table cleared.
+<ConfigFile> ignoreFileExt elem added 'bak'.
+<ConfigFile> ignoreFileExt elem added 'db'.
+<ConfigFile> ignoreFileExt elem added 'wdp'.
+<ConfigFile> ignoreFullName table cleared.
+<ConfigFile> ignoreFullName elem added '.git'.
+<ConfigFile> ignoreFullName elem added '.svn'.
+<ConfigFile> ignoreFullName elem added '.vs'.
+<ConfigFile> ignoreFullName elem added 'desktop.ini'.
+<ConfigFile> s_indexFileName elem edited (ext '.idx').
+<ConfigFile> s_dataFileName elem edited (ext '.data').
+<ConfigFile> s_adwEterPackKey elem edited (idx '0', val'843707904').
+<ConfigFile> s_adwEterPackKey elem edited (idx '1', val'1176167288').
+<ConfigFile> s_adwEterPackKey elem edited (idx '2', val'992328100').
+<ConfigFile> s_adwEterPackKey elem edited (idx '3', val'1705708525').
+<ConfigFile> s_adwEterPackSecurityKey elem edited (idx '0', val'599220564').
+<ConfigFile> s_adwEterPackSecurityKey elem edited (idx '1', val'715591183').
+<ConfigFile> s_adwEterPackSecurityKey elem edited (idx '2', val'1382647704').
+<ConfigFile> s_adwEterPackSecurityKey elem edited (idx '3', val'1053692977').
+<ConfigFile> ms_dwFourCC set to 'MCOZ'.
+<ConfigFile> c_PackCC,c_IndexCC set to 'EPKD'.
+<ConfigFile> packTypeByExt table cleared.
+<ConfigFile> PML::forceFilenameToLowercase is now '0'.
+<ConfigFile> PML::create_cs called with ''.
+<ConfigFile> log_name changed to 'PackMakerLite'.
+<ConfigFile> s_bPackType changed to '2'.
+<ConfigFile> LOAD 'PackMakerLite.json' END
+<ConfigFile> LOAD 'probe.json' NOT FOUND
+<ConfigFile> LOAD 'C:\Users\l411s\probe.json' NOT FOUND
+Write[type:2] teste.txt
+pack: probe/teste.txt

@@ -1,0 +1,70 @@
+﻿.\EterPack\EterPack.cpp:340:	CLZObject zObj;
+.\EterPack\EterPack.cpp:341:	if (!CLZO::Instance().CompressEncryptedMemory(zObj, pbData, file.Size(), ETERPACK_KEY))
+.\EterPack\EterPack.cpp:384:	CLZObject zObj;
+.\EterPack\EterPack.cpp:408:	else if (fourcc == CLZObject::ms_dwFourCC)
+.\EterPack\EterPack.cpp:412:		if (!CLZO::Instance().Decompress(zObj, (const BYTE*)pvData, ETERPACK_KEY))
+.\EterPack\EterPack.cpp:541:		CLZObject* zObj = new CLZObject;
+.\EterPack\EterPack.cpp:550:		out_file.BindLZObject(zObj);
+.\EterPack\EterPack.cpp:555:		CLZObject* zObj = new CLZObject;
+.\EterPack\EterPack.cpp:557:		if (!CLZO::Instance().Decompress(*zObj, static_cast<const BYTE*>(*data), ETERPACK_SECURITY_KEY))
+.\EterPack\EterPack.cpp:564:		out_file.BindLZObject(zObj);
+.\EterPack\EterPack.cpp:569:		CLZObject* zObj = new CLZObject;
+.\EterPack\EterPack.cpp:571:		out_file.BindLZObjectWithBufferedSize(zObj);
+.\EterPack\EterPack.cpp:580:		CLZObject* zObj = new CLZObject;
+.\EterPack\EterPack.cpp:589:		out_file.BindLZObjectWithBufferedSize(zObj);
+.\EterPack\EterPack.cpp:645:	CLZObject zObj;
+.\EterPack\EterPack.cpp:670:			if (!CLZO::Instance().Decompress(zObj, (const BYTE*)data + index->data_position, ETERPACK_SECURITY_KEY))
+.\EterPack\EterPack.cpp:697:				dataMapFile.BindLZObjectWithBufferedSize(&zObj);
+.\EterPack\EterPack.cpp:734:	CLZObject zObj;
+.\EterPack\EterPack.cpp:841:	CLZObject zObj;
+.\EterPack\EterPack.cpp:848:			if (!CLZO::Instance().CompressEncryptedMemory(zObj, data, len, ETERPACK_SECURITY_KEY))
+.\EterPack\EterPack.cpp:1310:bool CEterPack::__Encrypt_Panama(const char* filename, const BYTE* data, SIZE_T dataSize, CLZObject& zObj)
+.\EterPack\EterPack.cpp:1367:bool CEterPack::__Decrypt_Panama(const char* filename, const BYTE* data, SIZE_T dataSize, CLZObject& zObj)
+.\EterPack\EterPackPolicy_CSHybridCrypt.h:19:class CLZObject;
+.\EterPack\EterPackPolicy_CSHybridCrypt.h:29:	bool EncryptMemory(std::string& rfileName, IN const BYTE* pSrcData, IN int iSrcLen, OUT CLZObject& zObj);
+.\EterPack\EterPackPolicy_CSHybridCrypt.h:30:	bool DecryptMemory(std::string& rfileName, IN const BYTE* pSrcData, IN int iSrcLen, OUT CLZObject& zObj);
+.\EterPack\EterPackPolicy_CSHybridCrypt.cpp:155:bool EterPackPolicy_CSHybridCrypt::EncryptMemory(std::string& rfileName, IN const BYTE* pSrcData, IN int iSrcLen, OUT CLZObject& zObj)
+.\EterPack\EterPackPolicy_CSHybridCrypt.cpp:220:bool EterPackPolicy_CSHybridCrypt::DecryptMemory(std::string& rfileName, IN const BYTE* pSrcData, IN int iSrcLen, OUT CLZObject& zObj)
+.\EterPack\EterPack.h:193:	bool __Decrypt_Panama(const char* filename, const BYTE* data, SIZE_T dataSize, CLZObject& zObj);
+.\EterPack\EterPack.h:194:	bool __Encrypt_Panama(const char* filename, const BYTE* data, SIZE_T dataSize, CLZObject& zObj);
+.\GameLib\ItemManager.cpp:322:	CLZObject zObj;
+.\UserInterface\PythonNonPlayer.cpp:33:	CLZObject zObj;
+.\EterBase\tea.cpp:39:		case ETERPACK_KEY:
+.\EterBase\tea.cpp:48:		case ETERPACK_SECURITY_KEY:
+.\EterBase\ServiceDefs.h:29:	ETERPACK_KEY,
+.\EterBase\ServiceDefs.h:30:	ETERPACK_SECURITY_KEY,
+.\EterBase\ServiceDefs.h:37:	COMPRESS_KEY_SIZE = COMPRESS_BIRCK_LEN + COMPRESS_BRICK_SIZE + 2,
+.\EterBase\MappedFile.h:39:	void BindLZObject(CLZObject* pLZObj);
+.\EterBase\MappedFile.h:40:	void BindLZObjectWithBufferedSize(CLZObject* pLZObj);
+.\EterBase\MappedFile.h:63:	CLZObject* m_pLZObj;
+.\EterBase\MappedFile.cpp:73:void CMappedFile::BindLZObject(CLZObject* pLZObj)
+.\EterBase\MappedFile.cpp:81:void CMappedFile::BindLZObjectWithBufferedSize(CLZObject* pLZObj)
+.\EterBase\lzo.h:8:class CLZObject
+.\EterBase\lzo.h:21:	CLZObject();
+.\EterBase\lzo.h:22:	~CLZObject();
+.\EterBase\lzo.h:65:	bool CompressMemory(CLZObject& rObj, const void* pIn, UINT uiInLen);
+.\EterBase\lzo.h:66:	bool CompressEncryptedMemory(CLZObject& rObj, const void* pIn, UINT uiInLen, unsigned char key_type);
+.\EterBase\lzo.h:67:	bool Decompress(CLZObject& rObj, const BYTE* pbBuf, unsigned char key_type = 0);
+.\EterBase\lzo.cpp:72:DWORD CLZObject::ms_dwFourCC = MAKEFOURCC('M', 'C', 'O', 'Z');
+.\EterBase\lzo.cpp:74:CLZObject::CLZObject()
+.\EterBase\lzo.cpp:79:void CLZObject::Initialize()
+.\EterBase\lzo.cpp:90:void CLZObject::Clear()
+.\EterBase\lzo.cpp:103:CLZObject::~CLZObject()
+.\EterBase\lzo.cpp:108:DWORD CLZObject::GetSize()
+.\EterBase\lzo.cpp:123:void CLZObject::BeginCompress(const void* pvIn, UINT uiInLen)
+.\EterBase\lzo.cpp:142:void CLZObject::BeginCompressInBuffer(const void* pvIn, UINT uiInLen, void* /*pvOut*/)
+.\EterBase\lzo.cpp:162:bool CLZObject::Compress()
+.\EterBase\lzo.cpp:188:bool CLZObject::BeginDecompress(const void* pvIn)
+.\EterBase\lzo.cpp:194:		TraceError("LZObject: not a valid data");
+.\EterBase\lzo.cpp:268:bool CLZObject::Decompress(unsigned char key_type)
+.\EterBase\lzo.cpp:283:			TraceError("LZObject: key incorrect");
+.\EterBase\lzo.cpp:289:			TraceError("LZObject: Decompress failed(decrypt) ret %d\n", r);
+.\EterBase\lzo.cpp:300:			TraceError("LZObject: Decompress failed : ret %d, CompressedSize %d\n", r, m_pHeader->dwCompressedSize);
+.\EterBase\lzo.cpp:307:		TraceError("LZObject: Size differs");
+.\EterBase\lzo.cpp:314:bool CLZObject::Encrypt(unsigned char key_type)
+.\EterBase\lzo.cpp:327:bool CLZObject::__Decrypt(unsigned char key_type, BYTE* pbData)
+.\EterBase\lzo.cpp:335:void CLZObject::AllocBuffer(DWORD dwSrcSize)
+.\EterBase\lzo.cpp:345:void CLZObject::CopyBuffer(const char* pbSrc, DWORD dwSrcSize)
+.\EterBase\lzo.cpp:382:bool CLZO::CompressMemory(CLZObject& rObj, const void* pIn, UINT uiInLen)
+.\EterBase\lzo.cpp:388:bool CLZO::CompressEncryptedMemory(CLZObject& rObj, const void* pIn, UINT uiInLen, unsigned char key_type)
+.\EterBase\lzo.cpp:403:bool CLZO::Decompress(CLZObject& rObj, const BYTE* pbBuf, unsigned char key_type)
